@@ -1,3 +1,11 @@
 app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+    resource: "@AppBundle/Resources/config/routing.yml"
+    prefix:   /
+
+zimzim_user:
+    resource: "@ZIMZIMUserBundle/Resources/config/routing.yml"
+    prefix: /
+
+zimzim_tools:
+    resource: "@ZIMZIMToolsBundle/Resources/config/routing.yml"
+    prefix:   /

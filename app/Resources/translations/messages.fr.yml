@@ -1,0 +1,21 @@
+views:
+    title: "Les peintures d'Antoine"
+    navbar:
+        title: "Les peintures d'Antoine"
+        menu: "Menu"
+        login: "Connexion"
+        logout: "Déconnexion"
+    footer:
+        title: Powered By zimzim62000
+button:
+    show: Voir
+    edit: Éditer
+    update: Modifier
+    create: Créer
+    delete: Supprimer
+    validate: Valider
+    register: "S'inscrire"
+link:
+    return: "Retour à la liste"
+form:
+    fieldrequired: "Champs requis"

@@ -15,6 +15,21 @@ class AppKernel extends Kernel
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+            new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+
+            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
+
+            new ZIMZIM\UserBundle\ZIMZIMUserBundle(),
+            new ZIMZIM\ToolsBundle\ZIMZIMToolsBundle(),
+
+            new APY\DataGridBundle\APYDataGridBundle(),
+
+            new FOS\UserBundle\FOSUserBundle(),
+            new HWI\Bundle\OAuthBundle\HWIOAuthBundle(),
+
+            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
+            new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
+
             new AppBundle\AppBundle(),
         );
 
