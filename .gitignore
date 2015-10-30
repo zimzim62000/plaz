@@ -20,7 +20,7 @@
 
 /app/Resources/public/scss/*
 !/app/Resources/public/scss/app.scss
-!/app/Resources/public/scss/_plaz_settings
+!/app/Resources/public/scss/_plaz_settings.scss
 /app/Resources/public/js/*
 !/app/Resources/public/js/app.js
 /app/Resources/public/css/*
