@@ -1,4 +1,12 @@
 @import "normalize";
-@import "_plaz_settings";
 @import "_settings";
+@import "_plaz_settings";
 @import "_foundation_mod";
+
+nav li.name a{
+    font-size: 2rem;
+}
+
+.full-width{
+    max-width: 100% !important;
+}

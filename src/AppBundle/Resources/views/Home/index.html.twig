@@ -1,0 +1,40 @@
+
+{% extends '::base.html.twig' %}
+
+{% block title %}
+    {{ 'app.home.index.title'|trans }}
+{% endblock title %}
+
+{% block page %}
+
+    <div class="row full-width">
+        <div class="small-12 columns text-center">
+            <h1 class="title  text-center">
+                {{ 'app.home.index.title1'|trans }}
+            </h1>
+            <h2 class="title  text-center">
+                {{ 'app.home.index.title2'|trans|raw }}
+            </h2>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-2 columns">
+            &nbsp;
+        </div>
+        <div class="small-8 columns panel">
+            {{ 'app.home.index.para1'|trans|raw }}
+        </div>
+        <div class="small-2 columns">
+            &nbsp;
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-10 small-centered columns panel">
+            {{ 'app.home.index.para2'|trans|raw }}
+        </div>
+    </div>
+
+{% endblock page %}

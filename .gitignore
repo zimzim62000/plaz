@@ -15,7 +15,7 @@
 /.idea
 /node_modules
 /bower_components
-zz
+/zz
 /.sass-cache
 
 /app/Resources/public/scss/*

@@ -6,7 +6,8 @@ views:
         login: "Connexion"
         logout: "Déconnexion"
     footer:
-        title: Powered By zimzim62000
+        title: Les peintures d'Antoine, votre spécialiste peintures sur ARRAS et sa région.
+        powered: Powered By zimzim62000
 button:
     show: Voir
     edit: Éditer

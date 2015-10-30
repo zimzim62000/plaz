@@ -1,0 +1,29 @@
+app:
+    home:
+        index:
+            title: "Les peintures d'Antoine : Experts en travaux de peintures et décorations sur ARRAS et sa région."
+            title1: "Antoine Robaert : Experts en travaux de peintures et décorations sur ARRAS et sa région."
+            title2: "Une équipe d'expert à votre écoute pour tous vos travaux de peintures, d'enduits, pose de placots, pose de revetement murale, pose de sol ( tous type de sol ).<br /> L'atout de l'équipe est que nous savons combiner vos envies et votre porte monnaie :)"
+            para1: >
+                <p class="text-justify">
+                Vous habitez Arras et sa région ( Croisille, Beaumetz les loges, Souchez, Biaches, etc ... ) <br /> <strong>Les peintures d'antoine</strong> sont là pour vous.<br />
+                Avec a ce jours plus de 100 chantiers réalisés à ce jours, n'attentez plus demander votre devis via <a href=#>le formulaire</a>,
+                Le spécialiste de la peinture arragoise se rendra chez vous gratuitement pour vous distiller tous ces précieux conseils et vous fournir un devis précis.<br />
+                </p>
+            para2: >
+                <h3 class="text-center">
+                    Plus que de la peinture, une réelle source d'inspiration.
+                </h3>
+                <p class="text-justify">
+                  Voilà le résumé en une phrase de ce qu'antoine vous fournira comme prestation.
+                  Que se sois de la pose de tapiserie, d'enduit décoratifs, de parquets ( bois / pvc ) vos murs et vos sols vous remerciront.<br />
+                  Sur la région d'ARRAS, il n'y a pas mieux.
+                  Un profesionel de la peinture à votre écoute et à votre service.<br />
+                  Vous étes sceptique ?
+                </p>
+                <h4 class="text-center">
+                    N'hésitez pas à allez voir ses réalisations et suivre ses chantiers en direct via le <a href="#">blog</a>
+                </h4>
+                 <p class="text-justify">
+                    Pas encore convaicu ? Regardez les commentaires ou prenez contact avec ses anciens clients. N'hésitez pas c'est par <a href="#">Ici</a> !
+                 </p>
