@@ -27,7 +27,8 @@
         "apy/datagrid-bundle": "dev-master",
         "stof/doctrine-extensions-bundle": "1.2.*@dev",
         "zimzim62000/user-bundle": "2.*@dev",
-        "zimzim62000/tools-bundle": "dev-master"
+        "zimzim62000/tools-bundle": "dev-master",
+        "zimzim62000/construction-site-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
@@ -72,6 +73,10 @@
         {
             "type": "git",
             "url": "https://github.com/zimzim62000/ToolsBundle.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/zimzim62000/ConstructionSiteBundle.git"
         }
     ]
 }
