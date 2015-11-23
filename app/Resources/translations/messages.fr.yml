@@ -3,8 +3,13 @@ views:
     navbar:
         title: "Les peintures d'Antoine"
         menu: "Menu"
+        return: "Retour"
         login: "Connexion"
         logout: "Déconnexion"
+        admin: "Admin"
+        constructionsite: "Chantier"
+        typeactionitem: "Type de travaux"
+        actionitem: "Travaux"
     footer:
         title: Les peintures d'Antoine, votre spécialiste peintures sur ARRAS et sa région.
         powered: Powered By zimzim62000

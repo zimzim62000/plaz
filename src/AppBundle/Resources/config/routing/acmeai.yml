@@ -1,0 +1,30 @@
+zimzim_constructionsitebundle_actionitem:
+    path:     /
+    defaults: { _controller: "AppBundle:AcmeAI:index" }
+
+zimzim_constructionsitebundle_actionitem_show:
+    path:     /{id}/show
+    defaults: { _controller: "AppBundle:AcmeAI:show" }
+
+zimzim_constructionsitebundle_actionitem_new:
+    path:     /new
+    defaults: { _controller: "AppBundle:AcmeAI:new" }
+
+zimzim_constructionsitebundle_actionitem_create:
+    path:     /create
+    defaults: { _controller: "AppBundle:AcmeAI:create" }
+    methods:  POST
+
+zimzim_constructionsitebundle_actionitem_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "AppBundle:AcmeAI:edit" }
+
+zimzim_constructionsitebundle_actionitem_update:
+    path:     /{id}/update
+    defaults: { _controller: "AppBundle:AcmeAI:update" }
+    methods:  [POST, PUT]
+
+zimzim_constructionsitebundle_actionitem_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "AppBundle:AcmeAI:delete" }
+    methods:  [POST, DELETE]

@@ -21,6 +21,7 @@ class AppKernel extends Kernel
 
             new ZIMZIM\UserBundle\ZIMZIMUserBundle(),
             new ZIMZIM\ToolsBundle\ZIMZIMToolsBundle(),
+            new ZIMZIM\ConstructionSiteBundle\ZIMZIMConstructionSiteBundle(),
 
             new APY\DataGridBundle\APYDataGridBundle(),
 

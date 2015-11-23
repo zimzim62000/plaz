@@ -18,9 +18,30 @@
         <section class="top-bar-section">
             <ul class="right">
 
-
-                {% if is_granted('ROLE_USER') %}
+                {% if is_granted('ROLE_ADMIN') %}
+                    <li class="divider"></li>
+                    <li class="has-dropdown not-click">
+                        <a href="javascript:void(0);">{{ 'views.navbar.admin'|trans }}</a>
+                        <ul class="dropdown">
+                            <li class="title back js-generated">
+                                <a href="javascript:void(0)">{{ 'views.navbar.return'|trans }}</a>
+                            </li>
+                            <li>
+                                <a href="{{ path('zimzim_constructionsite_constructionsite') }}">{{ 'views.navbar.constructionsite'|trans }}</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="{{ path('zimzim_constructionsite_typeactionitem') }}">{{ 'views.navbar.typeactionitem'|trans }}</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="{{ path('zimzim_constructionsite_actionitem') }}">{{ 'views.navbar.actionitem'|trans }}</a>
+                            </li>
+                            <li class="divider"></li>
+                        </ul>
+                    </li>
                 {% endif %}
+
                 <li class="divider"></li>
                 <li class="has-form">
                     {% if is_granted('ROLE_USER') %}
