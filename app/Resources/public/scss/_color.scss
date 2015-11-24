@@ -1,0 +1,54 @@
+//Color
+$white: #FFFFFF;
+$black: #000000;
+
+.whitecolor{
+    color: $white !important;
+}
+.blackcolor{
+    color: $black !important;
+}
+.primarycolor{
+    color: $primary-color !important;
+}
+.secondarycolor{
+    color:  $secondary-color !important;
+}
+.alertcolor{
+    color:  $alert-color !important;
+}
+.successcolor{
+    color:  $success-color !important;
+}
+.warningcolor{
+    color:  $warning-color !important;
+}
+.infocolor{
+    color:  $info-color !important;
+}
+
+
+.bgwhite{
+    background: $white !important;
+}
+.bgblack{
+    background: $black !important;
+}
+.bgprimary{
+    background: $primary-color !important;
+ }
+.bgsecondary{
+    background:  $secondary-color !important;
+}
+.bgalert{
+    background:  $alert-color !important;
+}
+.bgsuccess{
+    background:  $success-color !important;
+}
+.bgwarning{
+    background:  $warning-color !important;
+}
+.bginfo{
+    background:  $info-color !important;
+}
