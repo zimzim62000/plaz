@@ -4,6 +4,7 @@
 @import "_foundation_mod";
 @import "_icoonmoon";
 @import "_color";
+@import "_owlcarousel";
 
 nav li.name a{
     font-size: 2rem;
@@ -20,4 +21,10 @@ img.img-medium{
 }
 .vertical{
     vertical-align: middle !important;
+}
+.nomargin{
+    margin: 0 !important;
+}
+.nopadding{
+    padding: 0 !important;
 }

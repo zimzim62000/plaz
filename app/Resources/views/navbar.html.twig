@@ -3,7 +3,7 @@
     <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
             <li class="name">
-                <a href="#">
+                <a href="{{ path('app_homepage') }}">
                     {{ 'views.navbar.title'|trans }}
                 </a>
             </li>
@@ -17,7 +17,12 @@
         </ul>
         <section class="top-bar-section">
             <ul class="right">
-
+                <li class="divider"></li>
+                <li>
+                    <a href="{{ path('zimzim_constructionsite_constructionsite_list') }}">
+                        {{ 'views.navbar.listconstructionsite'|trans }}
+                    </a>
+                </li>
                 {% if is_granted('ROLE_ADMIN') %}
                     <li class="divider"></li>
                     <li class="has-dropdown not-click">
@@ -27,15 +32,21 @@
                                 <a href="javascript:void(0)">{{ 'views.navbar.return'|trans }}</a>
                             </li>
                             <li>
-                                <a href="{{ path('zimzim_constructionsite_constructionsite') }}">{{ 'views.navbar.constructionsite'|trans }}</a>
+                                <a href="{{ path('zimzim_constructionsite_constructionsite') }}">
+                                    {{ 'views.navbar.constructionsite'|trans }}
+                                </a>
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a href="{{ path('zimzim_constructionsite_typeactionitem') }}">{{ 'views.navbar.typeactionitem'|trans }}</a>
+                                <a href="{{ path('zimzim_constructionsite_typeactionitem') }}">
+                                    {{ 'views.navbar.typeactionitem'|trans }}
+                                </a>
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a href="{{ path('zimzim_constructionsite_actionitem') }}">{{ 'views.navbar.actionitem'|trans }}</a>
+                                <a href="{{ path('zimzim_constructionsite_actionitem') }}">
+                                    {{ 'views.navbar.actionitem'|trans }}
+                                </a>
                             </li>
                             <li class="divider"></li>
                         </ul>

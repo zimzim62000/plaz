@@ -10,6 +10,7 @@ views:
         constructionsite: "Chantier"
         typeactionitem: "Type de travaux"
         actionitem: "Travaux"
+        listconstructionsite: "Mes Chantiers"
     footer:
         title: Les peintures d'Antoine, votre spécialiste peintures sur ARRAS et sa région.
         powered: Powered By zimzim62000

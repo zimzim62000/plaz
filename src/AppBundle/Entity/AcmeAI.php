@@ -16,7 +16,7 @@ use AppBundle\Entity\AcmeTAI;
  * @ORM\Table(name="acme_ai")
  * @ORM\Entity(repositoryClass="ZIMZIM\ConstructionSiteBundle\Model\ActionItemRepository")
  * @ORM\HasLifecycleCallbacks
- * @GRID\Source(columns="id, name", groups={"default"})
+ * @GRID\Source(columns="id, name, typeActionItem.name, constructionSite.name", groups={"default"})
  */
 class AcmeAI extends ActionItem
 {
@@ -54,5 +54,10 @@ class AcmeAI extends ActionItem
 
     public function getId(){
         return $this->id;
+    }
+
+    protected function getUploadDir()
+    {
+        return "resources/ai/" . $this->getId();
     }
 }
