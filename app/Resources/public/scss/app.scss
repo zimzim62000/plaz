@@ -2,6 +2,9 @@
 @import "_settings";
 @import "_plaz_settings";
 @import "_foundation_mod";
+@import "_icoonmoon";
+@import "_color";
+@import "_owlcarousel";
 
 nav li.name a{
     font-size: 2rem;
@@ -9,4 +12,19 @@ nav li.name a{
 
 .full-width{
     max-width: 100% !important;
+}
+table.width-100{
+    width: 100% !important;
+}
+img.img-medium{
+    width: 3rem;
+}
+.vertical{
+    vertical-align: middle !important;
+}
+.nomargin{
+    margin: 0 !important;
+}
+.nopadding{
+    padding: 0 !important;
 }

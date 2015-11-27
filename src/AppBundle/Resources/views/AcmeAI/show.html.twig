@@ -1,0 +1,71 @@
+{% extends '::base.html.twig' %}
+
+
+{% block title %}
+    {{ 'zimzim_constructionsitebundle_actionitem.index.title'|trans }}
+{% endblock title %}
+
+{% block page %}
+    <div class="row">
+        <div class="medium-12 columns">
+            <h1 class="text-center title">Entity</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="medium-12 columns">
+            <table class="width-100 panel">
+                <tbody>
+                    <tr>
+                        <th>Id</th>
+                            <td>{{ entity.id }}</td>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                            <td>{{ entity.name }}</td>
+                    </tr>
+                    <tr>
+                        <th>Text</th>
+                            <td>{{ entity.text }}</td>
+                    </tr>
+                    <tr>
+                        <th>Position</th>
+                            <td>{{ entity.position }}</td>
+                    </tr>
+                    <tr>
+                        <th>Updatedfiles</th>
+                            <td>{{ entity.updatedFiles|date('Y-m-d H:i:s') }}</td>
+                    </tr>
+                    <tr>
+                        <th>Pathbefore</th>
+                            <td>{{ entity.pathBefore }}</td>
+                    </tr>
+                    <tr>
+                        <th>Pathpending</th>
+                            <td>{{ entity.pathPending }}</td>
+                    </tr>
+                    <tr>
+                        <th>Pathafter</th>
+                            <td>{{ entity.pathAfter }}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+                        <div class="row">
+    <div class="small-4 columns text-left">
+        <a class="link-return" href="{{ path('zimzim_constructionsitebundle_actionitem') }}">
+            <i class="icon-arrow-left icon-large vertical"></i>
+            {{ 'link.return'|trans }}
+        </a>
+    </div>
+    <div class="small-4 columns text-center">
+        <a class="tiny button" href="{{ path('zimzim_constructionsitebundle_actionitem_edit', { 'id': entity.id }) }}">
+            {{ 'button.update'|trans }}
+        </a>
+    </div>
+    <div class="small-4 columns text-center">
+        {{ form(delete_form) }}
+    </div>
+</div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,6 @@
+zimzim_construction_site:
+    constructionsite_class : AppBundle\Entity\AcmeCS
+    typeactionitem_class : AppBundle\Entity\AcmeTAI
+    actionitem_class : AppBundle\Entity\AcmeAI
+    #constructionsite_repo  : AppBundle\Entity\AcmeCS
+    #constructionsite_form  : AppBundle\Form\Type\ConstructionSite

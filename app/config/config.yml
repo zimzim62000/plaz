@@ -9,6 +9,7 @@ imports:
     - { resource: config/service_doctrine_extensions.yml }
     - { resource: config/zimzim_user.yml }
     - { resource: config/zimzim_tools.yml }
+    - { resource: config/zimzim_constructionsite.yml }
     - { resource: config/jms_i18n_routing.yml }
 
 # Put parameters here that don't need to change on each machine where the app is deployed
@@ -81,7 +82,7 @@ swiftmailer:
 assetic:
     debug:          "%kernel.debug%"
     use_controller: false
-    bundles:        [ ]
+    bundles:        [ "ZIMZIMToolsBundle" ]
     variables:
         version: [%assets_version%]
     #java: /usr/bin/java

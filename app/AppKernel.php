@@ -21,6 +21,7 @@ class AppKernel extends Kernel
 
             new ZIMZIM\UserBundle\ZIMZIMUserBundle(),
             new ZIMZIM\ToolsBundle\ZIMZIMToolsBundle(),
+            new ZIMZIM\ConstructionSiteBundle\ZIMZIMConstructionSiteBundle(),
 
             new APY\DataGridBundle\APYDataGridBundle(),
 
@@ -30,7 +31,7 @@ class AppKernel extends Kernel
             new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
             new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
 
-            new AppBundle\AppBundle(),
+            new AppBundle\AppBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
